@@ -33,3 +33,5 @@ RUN yay --noconfirm --rebuild -S mingw-w64-librsvg
 RUN yay --noconfirm -S mingw-w64-qt5-base
 RUN yay --noconfirm -S mingw-w64-qt5-base-static
 
+# Clear yay cache
+RUN rm -rf .cache/yay

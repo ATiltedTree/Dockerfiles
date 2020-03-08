@@ -41,5 +41,3 @@ RUN yay --noconfirm --rebuild -S mingw-w64-winpthreads
 
 # Clear yay cache
 RUN rm -rf .cache/yay
-
-LABEL version="1.0.0"
